@@ -31,7 +31,6 @@ header{
 }
 
 nav{
-    width: 1000px;
     height: 1%;
     background-color: rgb(82, 160, 86);
     display: block;
@@ -104,4 +103,5 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
