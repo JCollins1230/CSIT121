@@ -46,6 +46,7 @@ nav{
         background-color: #45b498;
         background-size:px;
         width: 1000px;
+        margin: px auto;
         padding: 40px;
         border: 10px dotted pink
         border-radius: 12px;
@@ -99,12 +100,8 @@ nav{
         overflow-y:scroll;
         float: left;
     }
-.content{
-    max-width:1000px;
-    margin: auto;
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-    
-
-
-
-
