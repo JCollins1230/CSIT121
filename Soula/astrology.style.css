@@ -1,0 +1,52 @@
+@font-face {
+    font-family: myfont;
+    src: url(Salon\ du\ Chocolat.ttf);
+}
+@font-face {
+    font-family: bolinker;
+    src: url(Bolinker\ Quantum\ DEMO\ VERSION.ttf);
+}
+
+H1 {
+    font-family: myfont;
+    color: darkgreen
+}
+body {
+    background-color:rgba(95, 212, 105, 0.534);
+    font-size:x-large;
+    font-family: bolinker;
+}
+a{
+    color:#02694f
+}
+a:hover {
+    color:  #022266;
+  }
+
+<style>
+  header{
+    background-image:url ("images/blue.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+.main-content{
+    position: relative;
+        background-image: url("images/blue.jpg");
+        background-size: 200px;
+        width: 100px;
+        margin: 10px auto;
+        padding: 40px;
+        border: 10px dotted pink
+        border-radius: 12px;
+        box-shadow: 2px 2px 10px 
+        z-index: 1;
+}
+.grid{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+</style>
