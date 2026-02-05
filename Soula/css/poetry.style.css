@@ -100,3 +100,8 @@ nav{
         overflow-y:scroll;
         float: left;
     }
+.content{
+    max-width:500px;
+    margin: auto;
+}
+    
