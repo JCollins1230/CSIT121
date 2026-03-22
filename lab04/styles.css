@@ -1,0 +1,49 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  p {
+    color:rgb(17, 100, 8)
+  }
+
+  h1 {
+    color: rgba(0, 38, 0, 0.461);
+  }
+
+  h2 {
+    color: rgb(8, 83, 19); font-style: italic;
+  }
+
+  h3 {
+    color: rgba(1, 38, 9, 0.906); font-style: italic;
+  }
+
+  li {
+    color:rgb(255, 255, 255)
+  }
+
+  body {
+  background-image: url("images/green.jpg");
+  }
+ main nav {
+    background-color: rgba(12, 99, 26, 0.433);
+    border: .2em solid rgb(5, 46, 46);
+
+  }main nav ul {
+    
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+main nav ul li {
+    margin: 0 1em 
+}
+
+main nav ul li a {
+    padding: 0 1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+main nav ul li a:hover {
+    background-color: rgb(10, 75, 33);
