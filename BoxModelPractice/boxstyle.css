@@ -1,0 +1,21 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: green;
+    margin: 15px;
+    padding: 15px;
+}
+#box1 {
+    position: absolute;
+    top: 50px;
+    left: 325px;
+    background-color:rgb(24, 111, 5);
+}
+#box2 {
+    float: right;
+    background-color: rgb(130, 165, 42);
+}
+#box3 {
+    background-color: rgb(5, 57, 5);
+}
