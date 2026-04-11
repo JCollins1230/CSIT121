@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(124, 217, 134)
+}
+
+  h1 {
+    color: rgba(5, 83, 10, 0.461);
+  }
+
+  h2 {
+    color: rgb(9, 102, 111); font-style: italic;
+  }
+
+  h3 {
+    color: rgb(3, 69, 69); font-style: italic;
+  }
+
+  li {
+    color:rgba(44, 8, 129, 0.747)
+  }
+
+  p {
+    color:rgb(11, 8, 226)
+  }
+#header1 {
+    color: rgb(104, 2, 2);
+}
+main nav {
+    background-color: rgba(12, 99, 26, 0.433);
+    border: .2em solid rgb(5, 46, 46);
+
+  }
+main nav ul {
+    
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+main nav ul li {
+    margin: 0 1em 
+}
+
+main nav ul li a {
+    padding: 0 1em;
+    color: rgb(216, 45, 45);
+    text-decoration: none;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  height: 500px;
+  flex: 1;
+}
+
+.flex-item2 {
+  background-color: #f682fa;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  height: 500px;
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  
+}
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+  }
+}
