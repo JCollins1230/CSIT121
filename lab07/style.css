@@ -1,0 +1,39 @@
+body {
+    background-color: hsla(315, 72%, 62%, 0.61);
+ }  
+ h1 {
+    color: #2804aa;
+    font-family: myFont;
+    }
+form {
+    color: #ffffff;
+}
+@font-face {
+  font-family: myFont; /* set name */
+  src: url(ombre.ttf); 
+}
+.content-table th, .content-table td {
+    border-collapse: collapse;
+        margin: 25px 0;
+        font-size: .9em;
+        min-width: 200px;
+        color: #ffffff;
+    }
+ .content-table thead tr {
+        background-color: #e61897;
+        color: #ded3d3;
+        text-align: center;
+    }
+.content-table th, .content-table td {
+        padding: 12px 15px;
+        border: 1px solid #010200e5;
+    }
+.content-table tbody tr {
+        border-bottom: 1px solid #6e04047c;
+        text-align: center;
+        background-color: #072af252;
+    }
+.content-table tbody tr:nth-of-type(even) {
+        background-color: #ebd005ee;
+    }
+
