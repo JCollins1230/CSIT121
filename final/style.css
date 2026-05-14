@@ -72,6 +72,13 @@ a:hover {
     flex-direction: row;
   }
 
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .topnav {
   background-color: #000808d7;
   overflow: hidden;
