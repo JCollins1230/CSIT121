@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <title> Final Project - Jalin Collins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+        <h1> Final Project </h1>
+        </header>
+                 <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="greatesthits.html">Greatest Hits</a>
+            <a href="bts.html">Bloopers</a>
+            <a href="redcarpet.html">Red Carpet</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+      
+        <form>
+            <h1>Agree or Disagree? Contact Me! </h1>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="name">Did you like learning HTML?:</label><br>
+            <input type="radio" name="yes" value="Yes"> Yes<br>
+            <input type="radio" name="no" value="No"> No<br>
+            <label for="favorite-lab">Which lab of mine was your favorite?:</label><br>
+            <input type="text" id="favorite-lab" name="favorite lab"><br>
+            <label for="least-favorite-character">Which was your favorite lab to do?:</label><br>
+            <input type="text" id="least-favorite-character" name="least-favorite-character"><br>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+
+        </form>
+        <img src="images/carpet.jpg" alt="Red Carpet" width="1900" height="600">
+        </main>
+</body>
+</html>
